@@ -10,7 +10,7 @@ body {
 }
 
 #main {
-    margin: 50px auto;
+    margin: 30px auto;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -27,8 +27,8 @@ body {
     color: #6C757D;
     font-size: 16px;
     padding: 15px;
-    margin: 15px auto;
-    border-radius: 5px;
+    margin: 5px auto;
+    border-radius: 10px;
 }
 .field.desc ul>li {
     text-align: left;
