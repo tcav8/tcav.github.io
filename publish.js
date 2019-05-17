@@ -2,9 +2,9 @@ var emails = [
     '3dizhi@gmail.com'
 ];
 var newestUrls = [
-    'https://july90.xyz',
+    'https://z35.xyz',
     'https://july98.xyz',
-    'https://july37.com',
+    'https://july98.',
 ];
 var otherUrls = [
     'https://3dizhi.github.io/',
