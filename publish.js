@@ -69,7 +69,7 @@ window.onload = function () {
     logoElem.innerHTML = '<span class="flag">最新地址</span>'
     mainElem.appendChild(logoElem);
     // newest urls
-    var newestFieldElem = createFieldElem({title: '最新地址', items: newestUrls, text: '请使用https://协议访问我们的网站'});
+    var newestFieldElem = createFieldElem({title: '最新地址', items: newestUrls});
     mainElem.appendChild(newestFieldElem);
 
     // other urls
