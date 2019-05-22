@@ -1,18 +1,17 @@
 var emails = [
-    '3dizhi@gmail.com'
+    'tcav888@gmail.com'
 ];
 var newestUrls = [
-    'https://z35.xyz',
-    'https://july98.xyz',
-    'https://july98.com',
+    'http://www.tcavv6.com/',
+    'http://www.tcavv2.com/',
+    'http://www.tcavv2.com/',
 ];
 var otherUrls = [
-    'https://3dizhi.github.io/',
-    'https://july50.com',
+    'http://tcav8.github.io/',
+    'http://tcav8.tv/',
 ];
 var foreverUrls = [
-    'https://julyporn.com',
-    'https://www.julyporn.com',
+    'http://tcav.tv/',
 ];
 var notices = [
     '* 我们推荐电脑以及Andriod手机用户使用Chrome(谷歌)浏览器浏览本站，iPhone手机我们建议使用手机自带的Safria浏览器访问本站。',
@@ -62,9 +61,13 @@ window.onload = function () {
     var logoElem = document.createElement('div');
     logoElem.setAttribute('class', 'brand');
     logoElem.setAttribute('id', 'logo');
-    logoElem.innerHTML = '<img src="https://cdn.sinaimg.cn.52ecy.cn/large/005BYqpgly1g3aehn0a1dj303801edg1.jpg"/>JULY <span>PORN</span><span class="flag">七色</span>'
+    logoElem.innerHTML = '<img src="https://cdn.sinaimg.cn.52ecy.cn/large/005BYqpgly1g3aehn0a1dj303801edg1.jpg"/>'
     mainElem.appendChild(logoElem);
-
+	var logoElem = document.createElement('div');
+    logoElem.setAttribute('class', 'brand');
+    logoElem.setAttribute('id', 'logo');
+    logoElem.innerHTML = '<span class="flag">最新地址</span>'
+    mainElem.appendChild(logoElem);
     // newest urls
     var newestFieldElem = createFieldElem({title: '最新地址', items: newestUrls, text: '请使用https://协议访问我们的网站'});
     mainElem.appendChild(newestFieldElem);
